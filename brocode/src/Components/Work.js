@@ -1,23 +1,24 @@
 import React from "react";
-import "./Work.css";
-import { NavLink } from "react-router-dom";
-// import WorkCardData from "./WorkData";
+import "./WorkCard.css";
+import WorkCard from "./WorkCard";
+import WorkCardData from "./WorkCardData";
 
-const Work = (props) => {
+const Work = () => {
   return (
-    <div className='project-card'>
-      <img src={props.imgsrc} alt='code' />
-      <h2 className='project-title'>{props.title}</h2>
-      <div className='pro-details'>
-        <p>{props.text}</p>
-        <div className='pro-btns'>
-          <NavLink to={props.view} className='btn'>
-            View
-          </NavLink>
-          <NavLink to={props.source} className='btn'>
-            Source
-          </NavLink>
-        </div>
+    <div className='work-container'>
+      <h1 className='project-heading'>PROJECTS</h1>
+      <div className='project-container'>
+        {WorkCardData.map((value, index) => {
+          return (
+            <WorkCard
+              key={index}
+              img={value.img}
+              title={value.title}
+              text={value.text}
+              view={value.view}
+            />
+          );
+        })}
       </div>
     </div>
   );
