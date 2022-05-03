@@ -4,7 +4,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
-import Navbar from "./Components/Navbar";
+// import Navbar from "./Components/Navbar";
 
 import { Route, Routes } from "react-router-dom";
 
