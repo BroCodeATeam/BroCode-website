@@ -32,7 +32,7 @@ const PricingCard = () => {
           </Link>
         </div>
         <div className='card'>
-          <h3>- BASIC -</h3>
+          <h3>- BUSINESS -</h3>
           <span className='bar'></span>
           <p className='btc'>$300</p>
           <p>- 5 Days -</p>
