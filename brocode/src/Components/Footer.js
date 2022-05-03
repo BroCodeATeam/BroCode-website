@@ -21,21 +21,24 @@ const Footer = () => {
               <p>USA</p>
             </div>
           </div>
-        </div>
-        <div className='phone'>
-          <h4>
-            <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-            123-456-7890
-          </h4>
-        </div>
-        <div className='email'>
-          <h4>
-            <FaMailBulk
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            bro@code.com
-          </h4>
+          <div className='phone'>
+            <h4>
+              <FaPhone
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              123-456-7890
+            </h4>
+          </div>
+          <div className='email'>
+            <h4>
+              <FaMailBulk
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              bro@code.com
+            </h4>
+          </div>
         </div>
         <div className='right'>
           <h4>About Us</h4>
