@@ -25,3 +25,5 @@ const ProjectCardData = [
     source: "https://github.com",
   },
 ];
+
+export default ProjectCardData;

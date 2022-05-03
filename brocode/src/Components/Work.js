@@ -1,20 +1,20 @@
 import React from "react";
 import "./Work.css";
-import code from "../assets/code.jpg";
 import { NavLink } from "react-router-dom";
+// import WorkCardData from "./WorkData";
 
-const Work = () => {
+const Work = (props) => {
   return (
     <div className='project-card'>
-      <img src={code} alt='code' />
-      <h2 className='project-title'>Lorem Ipsum</h2>
+      <img src={props.imgsrc} alt='code' />
+      <h2 className='project-title'>{props.title}</h2>
       <div className='pro-details'>
-        <p>This is a paragraph</p>
+        <p>{props.text}</p>
         <div className='pro-btns'>
-          <NavLink to='url.com' className='btn'>
+          <NavLink to={props.view} className='btn'>
             View
           </NavLink>
-          <NavLink to='github.com' className='btn'>
+          <NavLink to={props.source} className='btn'>
             Source
           </NavLink>
         </div>
