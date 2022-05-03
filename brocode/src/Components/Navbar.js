@@ -5,8 +5,9 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
   const [color, setColor] = useState(false);
+
+  const handleClick = () => setClick(!click);
   const changeColor = () => {
     if (window.scrollY >= 100) {
       setColor(true);
