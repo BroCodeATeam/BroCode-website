@@ -1,6 +1,13 @@
 import React from "react";
 import "./Footer.css";
-import { FaHome, FaPhone, FaMailBulk } from "react-icons/fa";
+import {
+  FaHome,
+  FaPhone,
+  FaMailBulk,
+  FaFacebook,
+  FaTwitter,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -30,7 +37,27 @@ const Footer = () => {
             bro@code.com
           </h4>
         </div>
-        <div className='right'></div>
+        <div className='right'>
+          <h4>About Us</h4>
+          <p>
+            We are a team of passionate web developers with a mission to make
+            outstanding user friendly websites for you or your business.
+          </p>
+          <div className='social'>
+            <FaFacebook
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <FaTwitter
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <FaLinkedin
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
