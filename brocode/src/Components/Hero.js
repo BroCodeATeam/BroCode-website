@@ -14,10 +14,10 @@ const Hero = () => {
         <h1>Developers at your service</h1>
         <div>
           <Link to='/projects' className='btn'>
-            <button>Projects</button>
+            Projects
           </Link>
           <Link to='/contact' className='btn btn-light'>
-            <button>Contact</button>
+            Contact
           </Link>
         </div>
       </div>
