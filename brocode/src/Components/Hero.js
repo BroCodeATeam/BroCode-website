@@ -1,13 +1,13 @@
 import "./Hero.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import HeroImg from "../assets/icycoast.jpg";
+import code5 from "../assets/code5.jpg";
 
 const Hero = () => {
   return (
     <div className='hero'>
       <div className='mask'>
-        <img className='hero-img' src={HeroImg} alt='HeroImg' />
+        <img className='hero-img' src={code5} alt='HeroImg' />
       </div>
       <div className='content'>
         <p>Hello, we are BroCode.</p>
