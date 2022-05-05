@@ -44,7 +44,7 @@ const Footer = () => {
           <h4>About Us</h4>
           <p>
             We are a team of passionate web developers with a mission to make
-            outstanding user friendly websites for you or your business.
+            outstanding user-friendly websites for you or your business.
           </p>
           <div className='social'>
             <FaFacebook
