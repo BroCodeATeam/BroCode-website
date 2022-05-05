@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from '../assets/broCode..mp4'
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
@@ -20,9 +21,11 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to='/'>
-        <h1>broCode.</h1>
-      </Link>
+      <video className='logo' loop autoPlay >
+        <source src={Logo}
+        type='video/mp4'
+        />
+      </video>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to='/'>Home</Link>
