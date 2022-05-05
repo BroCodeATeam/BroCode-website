@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fd45c59-9d00-4980-84fb-2c05c8c88f5f" name="Changes" comment="" />
+    <list default="true" id="8fd45c59-9d00-4980-84fb-2c05c8c88f5f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/brocode/src/Components/Hero2.css" beforeDir="false" afterPath="$PROJECT_DIR$/brocode/src/Components/Hero2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brocode/src/Components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/brocode/src/Components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brocode/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/brocode/src/Components/Navbar.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MajeraCodeReviewSettings">
@@ -24,19 +36,26 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28fvHuDqglIG8rBMU20W70KWU47" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RESTKit.sync": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "C:/Users/frame/OneDrive/Desktop/broCode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "show.migrate.to.gradle.popup": "false"
   }
@@ -51,10 +70,14 @@
       <updated>1651620372800</updated>
       <workItem from="1651620377614" duration="32000" />
       <workItem from="1651779813407" duration="25000" />
+      <workItem from="1651789837369" duration="907000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
