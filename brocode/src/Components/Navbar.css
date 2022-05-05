@@ -10,8 +10,8 @@
 }
 
 .header .logo {
-  width: 25%;
-  margin-top: 20px;
+  width: 20%;
+  margin-top: 5rem;
 }
 
 .header-bg {
@@ -37,6 +37,11 @@
 }
 
 @media screen and (max-width: 1040px) {
+  .header .logo {
+    margin-top: 1.5rem;
+    width: 25%;
+  }
+
   .nav-menu {
     flex-direction: column;
     justify-content: center;
