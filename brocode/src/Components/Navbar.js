@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+import Logo from '../assets/broCode..mp4'
+
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [color, setColor] = useState(false);
@@ -21,7 +23,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <video className='logo' loop autoPlay muted >
-        <source src={require('../assets/broCode..mp4')}
+        <source src={Logo}
         type='video/mp4'
         />
       </video>

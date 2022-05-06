@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fd45c59-9d00-4980-84fb-2c05c8c88f5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/brocode/src/Components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/brocode/src/Components/Navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brocode/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/brocode/src/Components/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <workItem from="1651789837369" duration="4005000" />
       <workItem from="1651796178599" duration="1930000" />
       <workItem from="1651799476351" duration="1378000" />
-      <workItem from="1651867260387" duration="1728000" />
+      <workItem from="1651867260387" duration="1824000" />
     </task>
     <servers />
   </component>
