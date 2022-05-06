@@ -5,7 +5,7 @@ import AboutContent from "../Components/AboutContent";
 const About = () => {
   return (
     <div>
-      <Hero2 />
+      <Hero2 heading='ABOUT.' text='Who we are.' />
       <AboutContent />
     </div>
   );
