@@ -51,7 +51,21 @@
   opacity: 0.5;
 }
 
+@media screen and (max-width: 1040px) {
+  .hero .content h1 {
+    font-size: 3rem;
+  }
+
+  .hero .content p {
+    font-size: 1.4rem;
+  }
+}
+
 @media screen and (max-width: 640px) {
+  .hero .content {
+    margin-top: 5rem;
+  }
+
   .hero .content h1 {
     font-size: 3rem;
   }
