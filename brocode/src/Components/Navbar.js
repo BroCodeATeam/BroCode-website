@@ -1,7 +1,6 @@
 import "./Navbar.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from '../assets/broCode..mp4'
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
@@ -21,8 +20,8 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <video className='logo' loop autoPlay >
-        <source src={Logo}
+      <video className='logo' loop autoPlay muted >
+        <source src={require('../assets/broCode..mp4')}
         type='video/mp4'
         />
       </video>
