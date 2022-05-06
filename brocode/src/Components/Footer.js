@@ -47,7 +47,7 @@ const Footer = () => {
             outstanding user-friendly websites for you or your business.
           </p>
           <div className='social'>
-            <a href='https://www.facebook.com/broCode.Development' target='_blank'>
+            <a href='https://www.facebook.com/broCode.Development' target='_blank' rel='noreferrer' >
             <FaFacebook
               size={30}
               style={{ color: "#15A3FA", marginRight: "1rem" }}
