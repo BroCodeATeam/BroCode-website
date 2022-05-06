@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fd45c59-9d00-4980-84fb-2c05c8c88f5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/brocode/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/brocode/src/Components/Footer.js" afterDir="false" />
-    </list>
+    <list default="true" id="8fd45c59-9d00-4980-84fb-2c05c8c88f5f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +66,7 @@
       <updated>1651620372800</updated>
       <workItem from="1651620377614" duration="32000" />
       <workItem from="1651779813407" duration="25000" />
-      <workItem from="1651789837369" duration="3539000" />
+      <workItem from="1651789837369" duration="4005000" />
     </task>
     <servers />
   </component>
