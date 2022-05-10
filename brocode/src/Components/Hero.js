@@ -6,9 +6,6 @@ import code5 from "../assets/code5.jpg";
 const Hero = () => {
   return (
     <div className='hero'>
-      <div className='mask'>
-        <img className='hero-img' src={code5} alt='HeroImg' />
-      </div>
       <div className='content'>
         <p>Hello, we are BroCode.</p>
         <h1>Developers at your service</h1>
