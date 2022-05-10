@@ -6,13 +6,10 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div>
-      <Hero2 heading='CONTACT.' text="Like what you see? Let's get to work." />
-      <Form />
-    <div className='contact'>
-      <Hero2 heading='CONTACT.' text="Like what you see? Let's get to work." />
-      <Form />
-    </div>
+      <div className='contact'>
+          <Hero2 heading='CONTACT.' text="Like what you see? Let's get to work." />
+          <Form />
+      </div>
   );
 };
 
