@@ -7,9 +7,10 @@ import './About.css'
 const About = () => {
   return (
     <div>
-    <div className='about'>
-      <Hero2 heading='ABOUT.' text='Who we are.' />
-      <AboutContent />
+      <div className='about'>
+        <Hero2 heading='ABOUT.' text='Who we are.' />
+        <AboutContent />
+      </div>
     </div>
   );
 };
