@@ -1,9 +1,5 @@
 .mask {
   width: 100%;
-<<<<<<< Updated upstream
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100vh;
-=======
   height: 100vh;
   position: relative;
   margin: 5rem 0;
@@ -34,17 +30,15 @@
 }
 
 .hero-img {
->>>>>>> Stashed changes
+  height: 60vh;
   position: relative;
 }
 
 .hero-img::before {
   content: "";
-<<<<<<< Updated upstream
+  background: url(/src/assets/code6.jpg);
   background-size: cover;
-  background: url("https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") center top;
-=======
->>>>>>> Stashed changes
+  background-position: center top;
   height: 100%;
   width: 100%;
   position: absolute;

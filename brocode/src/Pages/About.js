@@ -6,13 +6,9 @@ import './About.css'
 
 const About = () => {
   return (
-<<<<<<< Updated upstream
     <div>
-      <Hero2 />
-=======
     <div className='about'>
       <Hero2 heading='ABOUT.' text='Who we are.' />
->>>>>>> Stashed changes
       <AboutContent />
     </div>
   );
