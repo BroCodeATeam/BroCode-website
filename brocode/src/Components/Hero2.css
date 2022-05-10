@@ -30,15 +30,11 @@
 }
 
 .hero-img {
-  height: 60vh;
   position: relative;
 }
 
 .hero-img::before {
   content: "";
-  background: url(/src/assets/code6.jpg);
-  background-size: cover;
-  background-position: center top;
   height: 100%;
   width: 100%;
   position: absolute;
