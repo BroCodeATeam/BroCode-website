@@ -19,7 +19,7 @@ const WorkCardData = [
   },
   {
     img: code3,
-    title: "Start-up Website Design",
+    title: "Startup Website Design",
     text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad suscipit iusto vitae quaerat rem eaque velit beatae consectetur mollitia, blanditiis perferendis omnis in odit numquam tenetur laudantium maiores, provident culpa.",
     view: "https://www.google.com/",
     source: "https://www.github.com/",
