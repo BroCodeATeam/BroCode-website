@@ -1,10 +1,10 @@
 .footer {
-  position: sticky;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   padding: 2.5rem 0;
-  background-color: rgba(0, 1, 47, .75);
+  background-color: rgba(0, 1, 47, 0.75);
 }
 
 .footer-container {
