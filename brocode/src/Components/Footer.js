@@ -17,8 +17,7 @@ const Footer = () => {
           <div className='location'>
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>69420 Your Mom's House</p>
-              <p>USA</p>
+              <p>69420 Your Mom's House, USA</p>
             </div>
           </div>
           <div className='phone'>
@@ -44,7 +43,7 @@ const Footer = () => {
           <h4>About Us</h4>
           <p>
             We are a team of passionate web developers with a mission to make
-            outstanding user-friendly websites for you or your business.
+            outstanding<br/>user-friendly websites for you or your business.
           </p>
           <div className='social'>
             <a href='https://www.facebook.com/broCode.Development' target='_blank' rel='noreferrer' >
