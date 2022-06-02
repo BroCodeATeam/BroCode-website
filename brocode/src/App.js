@@ -1,5 +1,6 @@
 import React from "react";
-import "./index.css";
+import { Route, Routes } from "react-router-dom";
+
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
@@ -7,7 +8,8 @@ import Projects from "./Pages/Projects";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
-import { Route, Routes } from "react-router-dom";
+import "./index.css";
+
 
 function App() {
   return (
